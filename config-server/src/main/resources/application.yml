@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://gitee.com/zhudeming/spring-cloud-config.git
+          uri: https://gitee.com/wdx/spring-cloud-config.git
           #username:
           #password:
           search-paths: SC-BOOK-CONFIG

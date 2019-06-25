@@ -13,7 +13,7 @@ import cn.springcloud.book.common.exception.CommonError;
 
 /**
  * 用户对象
- * @author zhudeming
+ * @author wdx
  *
  */
 public class User implements Serializable {

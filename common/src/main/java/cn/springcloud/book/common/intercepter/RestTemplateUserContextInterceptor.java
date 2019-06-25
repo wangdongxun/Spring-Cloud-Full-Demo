@@ -13,7 +13,7 @@ import cn.springcloud.book.common.vo.User;
 
 /**
  * RestTemplate传递用户上下文
- * @author zhudeming
+ * @author wdx
  */
 public class RestTemplateUserContextInterceptor implements ClientHttpRequestInterceptor {
 

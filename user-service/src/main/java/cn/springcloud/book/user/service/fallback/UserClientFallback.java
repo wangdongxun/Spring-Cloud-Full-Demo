@@ -1,15 +1,8 @@
 package cn.springcloud.book.user.service.fallback;
 
 
-import java.util.ArrayList;
-import java.util.List;
-
+import cn.springcloud.book.user.service.dataservice.DataService;
 import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-
-import cn.springcloud.book.user.service.IUserService;
-import cn.springcloud.book.user.service.dataservice.DataService;	
 
 /**
  */

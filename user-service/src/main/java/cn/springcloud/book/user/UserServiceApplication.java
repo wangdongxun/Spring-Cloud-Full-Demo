@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.hystrix.EnableHystrix;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
- * @author zhudeming
+ * @author wdx
  */
 @SpringBootApplication
 @EnableDiscoveryClient

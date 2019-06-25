@@ -10,7 +10,7 @@ import cn.springcloud.book.user.service.fallback.UserClientFallback;
 
 /**
  * feign调用数据服务
- * @author zhudeming
+ * @author wdx
  *
  */
 @FeignClient(name = "sc-data-service", fallback=UserClientFallback.class)

@@ -7,10 +7,10 @@
 	</parent>
     <modelVersion>4.0.0</modelVersion>
 	<groupId>cn.springcloud.book</groupId>
-    <artifactId>ch10-1</artifactId>
+    <artifactId>cloud-full-demo</artifactId>
     <packaging>pom</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-    <name>ch10-1</name>
+    <name>cloud-full-demo</name>
     <url>http://springcloud.cn</url>
 
     <modules>

@@ -12,7 +12,7 @@ import feign.RequestTemplate;
 
 /**
  *  Feign传递用户上下文
- *  @author zhudeming
+ *  @author wdx
  */
 public class FeignUserContextInterceptor implements RequestInterceptor {
 

@@ -1,27 +1,20 @@
 package cn.springcloud.book.filter;
 
-import com.alibaba.fastjson.JSONObject;
-import com.netflix.zuul.ZuulFilter;
-import com.netflix.zuul.context.RequestContext;
-
 import cn.springcloud.book.common.exception.BaseException;
 import cn.springcloud.book.common.exception.BaseExceptionBody;
 import cn.springcloud.book.common.exception.CommonError;
-import cn.springcloud.book.common.util.AuthUtil;
 import cn.springcloud.book.common.vo.User;
-
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.Enumeration;
-import java.util.HashMap;
-import java.util.Map;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-
+import com.alibaba.fastjson.JSONObject;
+import com.netflix.zuul.ZuulFilter;
+import com.netflix.zuul.context.RequestContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
+
+import javax.servlet.http.HttpServletRequest;
+import java.util.Enumeration;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * 鉴权filter

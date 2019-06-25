@@ -4,7 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 /**
- * @author: zhudeming
+ * @author: wdx
  * @description : 配置信息
  */
 @Component

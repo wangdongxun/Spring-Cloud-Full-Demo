@@ -28,7 +28,8 @@ public class UserService implements IUserService{
 
 	@Override
 	public String getContextUserId() {
-		return dataService.getContextUserId();
+		String s=dataService.getContextUserId();
+		return s;
 	}
 
 	@Override

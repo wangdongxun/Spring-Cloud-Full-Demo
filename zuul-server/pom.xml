@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>cn.springcloud.book</groupId>
-		<artifactId>ch10-1</artifactId>
+		<artifactId>cloud-full-demo</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>zuul-server</artifactId>
